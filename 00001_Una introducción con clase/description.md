@@ -5,7 +5,7 @@ En Java _casi_ todo lo que escribimos se enmarca dentro de una clase, así que e
 class Golondrina {
   int energia;
   void volarEnCirculos() {
-    energa += 100;
+    energa -= 100;
   }
 }
 ```
@@ -15,7 +15,7 @@ class Golondrina {
 ```ruby
 class Golondrina
   def volar_en_circulos!
-    energia += 100
+    energia -= 100
   end
 end
 ```
