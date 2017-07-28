@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: main
+  inspection: Instantiates:Golondrina
+- binding: main
+  inspection: Uses:volarEnCirculos
+- binding: main
+  inspection: Uses:comerAlpise
