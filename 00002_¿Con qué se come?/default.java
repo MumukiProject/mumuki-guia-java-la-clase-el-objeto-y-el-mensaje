@@ -2,7 +2,7 @@ class Golondrina {
   int energia;
   
   void volarEnCirculos() {
-    energa -= 100;
+    energia -= 100;
   }
   
   //...completá acá...
