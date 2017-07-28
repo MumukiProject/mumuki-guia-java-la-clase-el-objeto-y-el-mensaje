@@ -1,1 +1,1 @@
-TODO
+TODO Antes de empezar, veamos rápidamente como aplicar lo que sabemos y empezar a programar con objectos en Java. 
