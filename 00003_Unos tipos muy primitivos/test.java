@@ -15,17 +15,17 @@ public void si_la_golondrina_vuela_en_circulos_y_tiene_300_de_energia_queda_en_2
 }
 
 @Test
-public void si_la_golondrina_come_alpiste_y_tiene_200_de_energia_queda_en_210() {
+public void si_la_golondrina_come_10g_de_alpiste_y_tiene_200_de_energia_queda_en_210() {
   Golondrina g = new Golondrina();
   g.energia = 200;
-  g.comerAlpiste();
-  Assert.assertEquals(210, g.energia);
+  g.comerAlpiste(10);
+  Assert.assertEquals(220, g.energia);
 }
 
 @Test
-public void si_la_golondrina_come_alpiste_y_tiene_300_de_energia_queda_en_310() {
+public void si_la_golondrina_come_24g_de_alpiste_y_tiene_300_de_energia_queda_en_310() {
   Golondrina g = new Golondrina();
   g.energia = 300;
-  g.comerAlpise();
-  Assert.assertEquals(310, g.energia);
+  g.comerAlpise(12);
+  Assert.assertEquals(324, g.energia);
 }
