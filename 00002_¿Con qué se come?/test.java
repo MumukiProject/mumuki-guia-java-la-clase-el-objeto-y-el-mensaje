@@ -3,7 +3,7 @@ public void si_la_golondrina_vuela_en_circulos_y_tiene_200_de_energia_queda_en_1
   Golondrina g = new Golondrina();
   g.energia = 200;
   g.volarEnCirculos();
-  assertEquals(100);
+  Assert.assertEquals(100);
 }
 
 @Test
@@ -11,7 +11,7 @@ public void si_la_golondrina_vuela_en_circulos_y_tiene_300_de_energia_queda_en_2
   Golondrina g = new Golondrina();
   g.energia = 300;
   g.volarEnCirculos();
-  assertEquals(200);
+  Assert.assertEquals(200);
 }
 
 @Test
@@ -19,7 +19,7 @@ public void si_la_golondrina_come_alpiste_y_tiene_200_de_energia_queda_en_210() 
   Golondrina g = new Golondrina();
   g.energia = 200;
   g.volarEnCirculos();
-  assertEquals(210);
+  Assert.assertEquals(210);
 }
 
 @Test
@@ -27,5 +27,5 @@ public void si_la_golondrina_come_alpiste_y_tiene_300_de_energia_queda_en_310() 
   Golondrina g = new Golondrina();
   g.energia = 300;
   g.volarEnCirculos();
-  assertEquals(310);
+  Assert.assertEquals(310);
 }
