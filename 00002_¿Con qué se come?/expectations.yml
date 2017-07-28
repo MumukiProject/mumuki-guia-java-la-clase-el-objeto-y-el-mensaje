@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: Golondrina
+  inspection: DeclaresMethod:comerAlpiste
+- binding: Golondrina
+  inspection: DeclaresMethod:volarEnCirculos
