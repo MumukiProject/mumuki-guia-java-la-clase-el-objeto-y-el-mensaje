@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: Libro
+  inspection: DeclaresMethod:esIncunable
+- binding: Libro
+  inspection: DeclaresAttribute:anioEdicion
+- binding: Libro
+  inspection: DeclaresAttribute:tieneColofon
