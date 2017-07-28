@@ -8,11 +8,6 @@ class Golondrina {
   boolean leQuedaEnegia() { 
     return energia > 0; 
   }
-  
-  // devuelve un int
-  int energiaUtilParaVolar() {
-    return energia - 30;
-  }
 }
 ```
 
@@ -22,8 +17,7 @@ class Golondrina {
 class Golondrina {
   int energia;
   
-  // void es el tipo de retorno para los métodos
-  // que no devuelven nada
+  // void es el tipo de retorno para los métodos que no devuelven nada
   void volarEnCirculos() {
     energia -= 100;
   }
