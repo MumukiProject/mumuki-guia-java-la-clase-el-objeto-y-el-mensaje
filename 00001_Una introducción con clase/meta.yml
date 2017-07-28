@@ -1,10 +1,18 @@
 ---
 tags: []
 layout: input_right
-editor: code
+editor: multiple_choice
 type: problem
 extra_visible: false
-language: 
+language: text
 teacher_info: 
 manual_evaluation: false
-choices: []
+choices:
+- value: "... declarar los atributos"
+  checked: true
+- value: "... abrir y cerrar llaves en lugar de utilizar bloques terminados en end"
+  checked: true
+- value: "... escribir los nombres de métodos en camelCase"
+  checked: true
+- value: "... escribir los nombres de clases en snake_case"
+  checked: false
