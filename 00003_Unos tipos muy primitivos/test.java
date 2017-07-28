@@ -26,6 +26,6 @@ public void si_la_golondrina_come_10g_de_alpiste_y_tiene_200_de_energia_queda_en
 public void si_la_golondrina_come_24g_de_alpiste_y_tiene_300_de_energia_queda_en_310() {
   Golondrina g = new Golondrina();
   g.energia = 300;
-  g.comerAlpise(12);
+  g.comerAlpiste(12);
   Assert.assertEquals(324, g.energia);
 }
