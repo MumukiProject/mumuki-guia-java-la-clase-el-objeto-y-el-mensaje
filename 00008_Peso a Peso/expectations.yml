@@ -1,0 +1,14 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresClass:Supermercado
+- binding: Supermercado
+  inspection: DeclaresMethod:registrarVenta
+- binding: Supermercado
+  inspection: DeclaresMethod:cantidadDeClientes
+- binding: Supermercado
+  inspection: DeclaresMethod:gastoPromedio
+- binding: Supermercado
+  inspection: DeclaresMethod:reiniciar
+- binding: Supermercado
+  inspection: DeclaresAttribute:*
