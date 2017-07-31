@@ -26,7 +26,7 @@ public void si_la_golondrina_tiene_5_de_energia_energiaUtil_reanimarConUnChocola
   Golondrina golondrina = new Golondrina();
   golondrina.energia = 5;
   golondrina.reanimarConUnChocolate();
-  Assert.assertEquals(golondrina.energiaUtil(), 45);
+  Assert.assertEquals(golondrina.energia, 45);
 }
 
 @Test 
@@ -34,5 +34,5 @@ public void si_la_golondrina_tiene_6_de_energia_energiaUtil_reanimarConUnChocola
   Golondrina golondrina = new Golondrina();
   golondrina.energia = 6;
   golondrina.reanimarConUnChocolate();
-  Assert.assertEquals(golondrina.energiaUtil(), 46);
+  Assert.assertEquals(golondrina.energia, 46);
 }
