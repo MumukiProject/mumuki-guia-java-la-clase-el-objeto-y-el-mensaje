@@ -19,4 +19,3 @@ frase.contains("sirve");
 
 > Veamos si se entiende: dentro del método `main` que te dejamos, instanciá a una golondrina `anastasia`, dale de comer 50 gramos de alpiste y hacela volar en círculos. 
 > 
-> No te preocupes por el resto del código, en breve te explicaremos de qué se trata :wink:. 
