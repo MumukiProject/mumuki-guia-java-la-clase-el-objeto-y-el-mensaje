@@ -1,4 +1,4 @@
-Por si no te habías cansado de ponerle tipo a atributos, variables locales y parámetros, si el método retorna algo, ¡también hay que tiparlo!
+Por si no te habías cansado de ponerle tipo a atributos, variables locales y parámetros, si el método retorna algo, ¡también hay que tiparlo! :sweat_smile:
 
 ```java
 class Golondrina {
@@ -11,7 +11,7 @@ class Golondrina {
 }
 ```
 
-¿Y si el método no devuelve nada? ¡Acá es donde entra `void`!
+¿Y si el método no devuelve nada? Acá es donde entra `void`:
 
 ```java
 class Golondrina {
@@ -24,5 +24,10 @@ class Golondrina {
 }
 ```
 
+`void` es un tipo muy especial que se usa sólamente en **retornos de métodos** que no devuelven nada.  
 
-
+> ¡A ver si se va entendiendo! Agregá dos métodos:
+>
+>  * `energia` 
+>  *
+> 
