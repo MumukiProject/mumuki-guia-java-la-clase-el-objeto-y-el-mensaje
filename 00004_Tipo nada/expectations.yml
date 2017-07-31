@@ -1,0 +1,6 @@
+---
+expectations:
+- inspection: TypesReturnAs:void
+  binding: reanimarConUnChocolate
+- binding: energiaUtil
+  inspection: TypesReturnAs:int
