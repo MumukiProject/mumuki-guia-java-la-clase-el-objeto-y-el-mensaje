@@ -9,3 +9,5 @@ objeto.mensaje()
 ```java
 new Clase()
 ```
+
+Y tené en cuenta que podés definir varias clases :wink:.
