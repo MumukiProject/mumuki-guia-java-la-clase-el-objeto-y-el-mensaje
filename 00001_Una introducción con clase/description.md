@@ -1,4 +1,3 @@
-
 En Java _casi_ todo lo que escribimos se enmarca dentro de una clase, así que empecemos por lo fácil: ¡definamos nuestra primera clase!
 
 ```java
