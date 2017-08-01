@@ -10,7 +10,7 @@ class Golondrina {
 }
 ```
 
-¿Te acordás de la golondrina pepita? Volvió, ¡en forma de clase Java ! Comparémsola con su implementación en Ruby: 
+¿Te acordás de la golondrina Pepita? Volvió, ¡en forma de clase Java! Comparémsola con su implementación en Ruby: 
 
 ```ruby
 class Golondrina
