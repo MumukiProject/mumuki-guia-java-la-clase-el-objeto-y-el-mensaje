@@ -1,0 +1,14 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresClass:Golondrina
+- binding: Golondrina
+  inspection: DeclaresAttribute:ubicacion
+- binding: Golondrina
+  inspection: DeclaresMethod:distanciaA
+- binding: "*"
+  inspection: Not:DeclaresClass:Ciudad
+- binding: distanciaA
+  inspection: Uses:distancia
+- binding: distanciaA
+  inspection: Uses:ubicacion
