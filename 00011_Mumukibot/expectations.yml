@@ -1,6 +1,0 @@
----
-expectations:
-- binding: hacerRevisionAnual
-  inspection: Not:Uses:aniosEnServicio
-- binding: hacerRevisionAnual
-  inspection: Not:Uses:activo
