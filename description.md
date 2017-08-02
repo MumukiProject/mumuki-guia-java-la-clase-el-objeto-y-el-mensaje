@@ -1,1 +1,1 @@
-TODO Antes de empezar, veamos rápidamente como aplicar lo que sabemos y empezar a programar con objectos en Java. 
+Hasta ahora estuvimos programado en objetos en Ruby, que es un lenguaje bastante simple y puro.    Antes de empezar, veamos rápidamente como aplicar lo que sabemos y empezar a programar con objectos en Java. 
