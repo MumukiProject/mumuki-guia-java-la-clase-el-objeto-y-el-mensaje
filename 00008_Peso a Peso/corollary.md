@@ -23,5 +23,5 @@ class Supermercado {
 }
 ```
 
-¡Da lo mismo! **En este sentido**, Java es un lenguaje declarativo: a diferencia de Ruby o JavaScript, Java no va a ejecutar todo el código directamente, sino que la cosa es un poco más compleja :scream:. Hagamos un alto en el camino para entender ésto...
+¡Da lo mismo! **En este sentido**, Java es un lenguaje declarativo: a diferencia de Ruby, Java no va a ejecutar todo el código directamente, sino que va a procesarlo todo primero, y luego va a ejecutarlo. Más adelante hablaremos más sobre esto. 
 
