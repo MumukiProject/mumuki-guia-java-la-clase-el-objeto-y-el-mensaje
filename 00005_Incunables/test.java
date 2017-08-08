@@ -16,9 +16,9 @@ public void un_libro_de_1590_sin_colofon_es_incunable() {
 }
 
 @Test
-public void un_libro_de_1629_sin_colofon_no_es_incunable() {
+public void un_libro_de_1629_sin_colofon_es_incunable() {
   Libro libro = new Libro();
   libro.anioEdicion = 1629;
   libro.tieneColofon = false;
-  Assert.assertFalse(libro.esIncunable());
+  Assert.assertTrue(libro.esIncunable());
 }
