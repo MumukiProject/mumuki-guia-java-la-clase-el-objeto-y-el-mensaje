@@ -24,5 +24,5 @@ class Libro {
 }
 ```
 
-Así que ya sabés: ¡sólo definí los getters y setters que realmente necesites!
+Así que ya sabés: ¡sólo definí los getters y setters que realmente necesites! 
 
