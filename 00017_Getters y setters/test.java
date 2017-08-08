@@ -2,7 +2,7 @@
 public void si_anioEdicion_es_1999_getAnioEdicion_devuelve_1999() {
   Libro cuentosCompletos = new Libro();
   cuentosCompletos.anioEdicion = 1999;
-  Assert.assertEquals(1999, pepita.getAnioEdicion());
+  Assert.assertEquals(1999, cuentosCompletos.getAnioEdicion());
 }
 
 @Test
