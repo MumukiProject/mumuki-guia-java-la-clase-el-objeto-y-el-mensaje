@@ -1,11 +1,12 @@
 class Golondrina {
   int energia; 
-  boolean estaCansada() {
-    return energia < 13;
+  void comerAlpiste(double gramos) {
+    energia += gramos * 2;
   }
-  void volarEnCirculosSiPuede() {
-    if (!this.estaCansada()) {
-      this.volarEnCirculos();
-    }
+  void comerChocolate(double gramos) {
+    energia += gramos * 9;
+  }
+  void comerSesamo(double gramos) {
+    energia += gramos * 1.5;
   }
 }

@@ -6,11 +6,18 @@ class Golondrina {
   boolean estaCansada() {
     return energia < 13;
   }
-  boolean estaCansada() {
-    return energia < 13;
+  void volarEnCirculos() {
+    energia -= 100;
   }
-  
+  void volarEnCirculosSiPuede() {
+    if (!this.estaCansada()) {
+      this.volarEnCirculos();
+    }
+  }
 }
 ```
 
+> Veamos si se entiende: el código en el editor repite siempre la misma lógica de incrementar (buuu :rage:). Pero podrías evitarla con la ayuda de un nuevo método `alimentarseCon`, que tome una cantidad de gramos y la cantidad de energía por gramo.
+> 
+> ¡Animate a mejorar la solución!     
 
