@@ -1,4 +1,4 @@
-class Golondrinda {
+class Golondrina {
   Ciudad ubicacion;
 
   //completá aca...
