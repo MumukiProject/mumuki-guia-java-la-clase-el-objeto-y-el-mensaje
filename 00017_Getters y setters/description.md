@@ -1,4 +1,4 @@
-¿Y si queremos conocer el estado de un objeto? Por ejemplo, ¿cómo podriamos hacer para, desde otro objeto, conocer la energía de _pepita_?
+¿Y si queremos conocer el estado de un objeto? Por ejemplo, ¿cómo podriamos hacer para, desde otro objeto, conocer la energía de  _pepita_?
 
 Como siempre, mediante mensajes :wink:. En este caso, necesitaremos declarar un método que devuelva la `energia` de la golondrina:
 
@@ -6,8 +6,8 @@ Como siempre, mediante mensajes :wink:. En este caso, necesitaremos declarar un 
 class Golondrina {
   int energia;
   
-  //notá que el mensaje se llama getEnergia y
-  //no simplemente energia
+  // notá que el mensaje se llama getEnergia y
+  // no simplemente energia
   int getEnergia() {
     return energia;
   }
@@ -23,8 +23,8 @@ Y, hablando de convenciones, también contamos con una para los métodos que tom
 class Golondrina {
   int energia;
   
-  //notá que empieza con set, toma un parámetro y
-  //su tipo de retorno es void
+  // notá que empieza con set, toma un parámetro y
+  // su tipo de retorno es void
   void setEnergia(int nuevaEnergia) {
     energia = nuevaEnergia;
   }
