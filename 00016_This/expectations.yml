@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresClass:Golondrina
+- binding: Golondrina
+  inspection: DeclaresMethod:comerAlpiste
+- inspection: DeclaresMethod:comerChocolate
+  binding: Golondrina
+- inspection: DeclaresMethod:comerSesamo
+  binding: Golondrina
