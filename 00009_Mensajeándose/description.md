@@ -1,4 +1,4 @@
-Podemos instanciar objetos y enviarles mensajes dentro cualquier método (nada sorprendete, ¿eh? :stuck_out_tongue:). Por ejemplo:
+Ya vimos que podemos instanciar objetos y enviarles mensajes dentro de un `main`. Pero eso no es todo, ¡podemos hacerlo dentro de cualquier método! (nada sorprendete, ¿eh? :stuck_out_tongue:). Por ejemplo:
 
 
 ```java
