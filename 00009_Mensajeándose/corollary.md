@@ -1,0 +1,1 @@
+Como ves, la forma de enviar mensajes a atributos y parámetros es la misma: `objeto.mensaje(argumentos)`. ¿Y si quisiéramos enviarle mensajes a sí mismo? ¿Tenemos un `self` como en Ruby?
