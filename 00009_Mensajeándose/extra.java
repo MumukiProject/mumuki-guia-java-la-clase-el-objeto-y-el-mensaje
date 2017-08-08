@@ -1,5 +1,5 @@
 class Ciudad {
-  double distanciaA(Ciudad otra) {
+  double distancia(Ciudad otra) {
     return 400;
   }
 }
