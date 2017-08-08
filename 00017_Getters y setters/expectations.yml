@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: Libro
+  inspection: setBienConservado
+- binding: Libro
+  inspection: getAnioEdicion
