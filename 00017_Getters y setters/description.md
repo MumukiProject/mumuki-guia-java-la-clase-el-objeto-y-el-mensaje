@@ -31,4 +31,5 @@ class Golondrina {
 }
 ```
 
+> Tu turno: agregá a la clase Libro el _getter_ `getAnioEdicion` y el _setter_ `setBienConservado`. 
 
