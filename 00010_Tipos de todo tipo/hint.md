@@ -1,0 +1,1 @@
+Recordá: los primitivos se escriben en minúscula :wink:.
