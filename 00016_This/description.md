@@ -1,4 +1,4 @@
-¿Y si queremos que un objeto se envíe a sí mismo? ¡Simple! Tal como en Ruby teníamos `self`, acá tenemos `this`: 
+¿Y si queremos que un objeto se envíe un mensaje sí mismo? ¡Simple! Tal como en Ruby teníamos `self`, acá tenemos `this`: 
 
 ```java
 class Golondrina {
@@ -6,10 +6,11 @@ class Golondrina {
   boolean estaCansada() {
     return energia < 13;
   }
-  void volarEnCirculosSiPuede() {
-    if (!this.estaCansada()) {
-      this.volarEnCirculos();
-    }
+  boolean estaCansada() {
+    return energia < 13;
   }
+  
 }
 ```
+
+
