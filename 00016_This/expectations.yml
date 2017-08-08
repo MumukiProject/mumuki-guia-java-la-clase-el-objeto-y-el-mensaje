@@ -8,3 +8,11 @@ expectations:
   binding: Golondrina
 - inspection: DeclaresMethod:comerSesamo
   binding: Golondrina
+- binding: comerSesamo
+  inspection: Uses:alimentarseCon
+- binding: comerAlpiste
+  inspection: Uses:alimentarseCon
+- inspection: Uses:alimentarseCon
+  binding: comerChocolate
+- binding: Golondrina
+  inspection: DeclaresMethod:alimentarseCon
