@@ -1,10 +1,22 @@
 ---
 tags: []
-layout: input_right
-editor: code
+layout: input_bottom
+editor: multiple_choice
 type: problem
 extra_visible: false
-language: 
+language: text
 teacher_info: 
 manual_evaluation: false
-choices: []
+choices:
+- value: a == 0
+  checked: true
+- value: a == null
+  checked: false
+- value: b == true
+  checked: false
+- value: b == false
+  checked: true
+- value: c == null
+  checked: false
+- value: c == "hola"
+  checked: false

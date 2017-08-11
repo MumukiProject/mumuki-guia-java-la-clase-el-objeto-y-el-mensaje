@@ -1,0 +1,1 @@
+¿Y si queremos parametrizar la inicialización?
