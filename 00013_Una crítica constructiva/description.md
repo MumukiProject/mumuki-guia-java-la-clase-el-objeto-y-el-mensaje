@@ -12,8 +12,8 @@ Golondrina anastasia = new Golondrina(180);
 ```java
 class Golondrina {
   int energia;
-  Golondrina(int energiaInicial) {
-    energia = energiaInicial;
+  Golondrina(int energia) {
+    this.energia = energia;
   }
   //...
 }
