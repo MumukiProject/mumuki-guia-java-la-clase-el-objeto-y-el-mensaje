@@ -5,9 +5,7 @@ Golondrina pepita = new Golondrina(250);
 Golondrina anastasia = new Golondrina(180);
 ```
 
-¿Podemos hacer ésto? 
-
-¡Por supuesto! Al igual que en Ruby, tenemos _constructores_, sólo que acá tienen una sintaxis especial...:
+¿Podemos hacer ésto? ¡Por supuesto! Al igual que en Ruby, tenemos _constructores_, sólo que acá tienen una sintaxis especial...:
 
 ```java
 class Golondrina {
