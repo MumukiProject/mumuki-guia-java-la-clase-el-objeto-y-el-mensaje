@@ -1,0 +1,14 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresClass:Bibliotecario
+- binding: "*"
+  inspection: DeclaresClass:Libro
+- binding: Bibliotecario
+  inspection: DeclaresMethod:revisar
+- binding: Bibliotecario
+  inspection: DeclaresMethod:pasarMes
+- binding: Bibliotecario
+  inspection: Uses:reparar
+- binding: Bibliotecario
+  inspection: Uses:esIncunable
