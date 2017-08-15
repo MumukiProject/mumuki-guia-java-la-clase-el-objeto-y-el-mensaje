@@ -1,13 +1,13 @@
 @Test
 public void se_puede_crear_a_alejandra_y_enviarle_getCantidadLibrosRevisados() {
   Bibliotecario alejandra = new Bibliotecario(1200);
-  Assert.assertEquals("La cantidad inicial de libros revisados de alejandra es 1200", alejandra.getCantidadLibrosRevisados())
+  Assert.assertEquals("La cantidad inicial de libros revisados de alejandra es 1200", alejandra.getCantidadLibrosRevisados());
 }
 
 @Test
 public void se_puede_crear_a_una_bibliotecaria_con_200_libros_revisados_y_enviarle_getCantidadLibrosRevisados() {
   Bibliotecario maria = new Bibliotecario(200);
-  Assert.assertEquals("La cantidad inicial de libros revisados de maria es 200", maria.getCantidadLibrosRevisados())
+  Assert.assertEquals("La cantidad inicial de libros revisados de maria es 200", maria.getCantidadLibrosRevisados());
 }
 
 @Test
