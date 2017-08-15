@@ -9,6 +9,16 @@ public void si_le_quedan_horas_a_alejandra_y_revisa_un_incunable_lo_repara() {
 }
 
 @Test
+public void si_le_quedan_horas_a_alejandra_y_revisa_un_libro_comun_no_lo_repara() {
+  Libro libro = new Libro(1849, true);
+
+  Bibliotecario alejandra = new Bibliotecario(1200);
+  alejandra.revisar(libro);
+  
+  Assert.assertFalse("Tras revisar un comun mal conservado, éste NO debería estar bienConservado", libro.bienConservado);
+}
+
+@Test
 public void se_puede_crear_a_alejandra_y_enviarle_getCantidadLibrosRevisados() {
   Bibliotecario alejandra = new Bibliotecario(1200);
   Assert.assertEquals("La cantidad inicial de libros revisados de alejandra es 1200", 1200, alejandra.getCantidadLibrosRevisados());
