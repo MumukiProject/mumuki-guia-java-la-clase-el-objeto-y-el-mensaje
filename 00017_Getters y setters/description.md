@@ -25,8 +25,11 @@ class Golondrina {
   
   // notá que empieza con set, toma un parámetro y
   // su tipo de retorno es void
-  void setEnergia(int nuevaEnergia) {
-    energia = nuevaEnergia;
+  void setEnergia(int energia) { 
+    // notá también el this delante del nombre del atributo: 
+    // dado que tanto el atributo como el parámetro
+    // se llaman de igual forma, this sirve para evitar ambigüedades
+    this.energia = energia;
   }
 }
 ```
