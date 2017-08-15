@@ -19,7 +19,7 @@ public void si_alejandra_revisa_tres_incunables_mal_conservados_no_repara_al_ter
   alejandra.revisar(libro2);
   alejandra.revisar(libro3);
   
-  Assert.assertFalse("El tercer libro no debería estar bien conservador", libro.bienConservado);
+  Assert.assertFalse("El tercer libro no debería quedar bien conservador", libro.bienConservado);
 }
 
 
