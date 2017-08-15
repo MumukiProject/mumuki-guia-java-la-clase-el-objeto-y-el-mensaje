@@ -9,6 +9,21 @@ public void si_le_quedan_horas_a_alejandra_y_revisa_un_incunable_lo_repara() {
 }
 
 @Test
+public void si_alejandra_revisa_tres_incunables_mal_conservados_no_repara_al_tercero() {
+  Libro libro1 = new Libro(1490, true);
+  Libro libro2 = new Libro(1490, true);
+  Libro libro3 = new Libro(1490, true);
+  
+  Bibliotecario alejandra = new Bibliotecario(1200);
+  alejandra.revisar(libro1);
+  alejandra.revisar(libro2);
+  alejandra.revisar(libro3);
+  
+  Assert.assertFalse("El tercer libro no debería estar bien conservador", libro.bienConservado);
+}
+
+
+@Test
 public void si_le_quedan_horas_a_alejandra_y_revisa_un_libro_comun_no_lo_repara() {
   Libro libro = new Libro(1849, true);
 
