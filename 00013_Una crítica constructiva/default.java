@@ -1,6 +1,6 @@
 class Libro {
-  boolean tieneColofon;
   int anioEdicion;
+  boolean tieneColofon;
   boolean bienConservado;
 
   int getAnioEdicion() {
