@@ -23,7 +23,7 @@ En Ruby la cosa era fácil: todo atributo por defecto vale `nil`. En Java, en ca
 > ```java
 > class X { 
 >   int a;
->   bool b;
+>   boolean b;
 >   String c;
 >   String d;
 >   void setD(String d) {
