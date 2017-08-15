@@ -17,6 +17,10 @@ choices:
 - value: b == false
   checked: true
 - value: c == null
+  checked: true
+- value: c == ""
   checked: false
-- value: c == "hola"
+- value: d == ""
   checked: false
+- value: d == "hola"
+  checked: true

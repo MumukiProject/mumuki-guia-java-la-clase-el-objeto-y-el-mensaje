@@ -18,6 +18,19 @@ En Ruby la cosa era fácil: todo atributo por defecto vale `nil`. En Java, en ca
     * `0` si es numérico (`int`, `long`, `double`, etc)
     * `false` si es `boolean`
 
-> ¿Se entendió? 
+> ¿Se entendió?  Comprobémoslo con este ejemplo:
 >
+> ```java
+> class X { 
+>   int a;
+>   bool b;
+>   String c;
+>   String d;
+>   void setD(String d) {
+>     this.d = d;
+>   }
+>}
+> ```
+> 
+> Si hacemos `new X().setD("hola")`, ¿cuánto valen los atributos del objeto que acabamos de crear? 
 > 
