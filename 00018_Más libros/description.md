@@ -33,5 +33,7 @@ alejandra.pasarMes();
 // reinicia la cantidad de horas a 20. 
 ```
 
-> Desarrollá la clase `Bibliotecario`. Podés agregar métodos a la clase `Libro`.
+> Desarrollá la clase `Bibliotecario`; podés agregar métodos a la clase `Libro`. 
+> 
+> Y no te olvides de delegar apropiadamente :wink:
 
