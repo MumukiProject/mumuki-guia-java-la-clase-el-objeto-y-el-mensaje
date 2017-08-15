@@ -21,4 +21,5 @@ class Golondrina {
 
 ..., que se parece a un método pero no lo es: notá que el constructor siempre se llama igual que la clase y no tiene retorno. 
 
-> 
+> Veamos si se entiende: agregá a la clase `Libro` un constructor que permita inicializar `tieneColofon` y `anioEdicion`. 
+> Tené en cuenta que los libros que 
