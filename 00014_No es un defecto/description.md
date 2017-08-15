@@ -18,6 +18,18 @@ En Ruby la cosa era fácil: todo atributo por defecto vale `nil`. En Java, en ca
     * `0` si es numérico (`int`, `long`, `double`, etc)
     * `false` si es `boolean`
 
+¡Y hay más! Si no nos sirve este valor por defecto, podemos explícitamente declarar el valor inicial del atributo...
+
+```java
+class Golondrina
+  int energia = 100;
+  // ...
+}
+```
+
+...que por supuesto, tiene que ser del tipo adecuado :stuck_out_tongue:. 
+
+
 > ¿Se entendió?  Comprobémoslo con este ejemplo:
 >
 > ```java
@@ -25,12 +37,9 @@ En Ruby la cosa era fácil: todo atributo por defecto vale `nil`. En Java, en ca
 >   int a;
 >   boolean b;
 >   String c;
->   String d;
->   void setD(String d) {
->     this.d = d;
->   }
+>   String d = "hola";
 >}
 > ```
 > 
-> Si hacemos `new X().setD("hola")`, ¿cuánto valen los atributos del objeto que acabamos de crear? 
+> Si hacemos `X x = new X()`, ¿cuánto valen los atributos del objeto `x` que acabamos de crear? 
 > 
