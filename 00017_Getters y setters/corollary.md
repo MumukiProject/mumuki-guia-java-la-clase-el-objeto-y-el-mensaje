@@ -6,8 +6,8 @@ Si no tenemos cuiado y agregamos y usamos _getters_ y _setters_ en exceso, casi 
 
 ```java
 class Libro {
-  boolean tieneColofon;
   int anioEdicion;
+  boolean tieneColofon;
   boolean bienConservado;
   
   int getAnioEdicion() {
