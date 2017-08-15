@@ -1,0 +1,1 @@
+Pensá: según lo que vimos en el ejercicio anterior, ¿cual es el valor por defecto de `bienConservado`? ¿Nos sirve?

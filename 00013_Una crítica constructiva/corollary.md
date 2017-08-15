@@ -4,3 +4,5 @@ Como ves, los constructores son otra forma de inicializar los atributos de una c
 
  * son más simples: un sólo constructor en lugar de varios setters;
  * y no nos obligan a declarar métodos que pueden modificar nuestros objetos: para preservar el encapsulamiento, es recomendable no modificar nuestros objetos si no es necesario. 
+
+Ya hablaremos sobre ésto más adelante. 
