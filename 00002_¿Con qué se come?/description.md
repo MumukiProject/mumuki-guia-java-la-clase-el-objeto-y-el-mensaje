@@ -1,4 +1,4 @@
-Java tiene sintaxis un poco más "pesada" que Ruby :confused:, pero no te desesperes: ¡con seguridad te va a recordar a Gobstones y JavaScript! Veamos algunos aspectos notables: 
+Hola Java tiene sintaxis un poco más "pesada" que Ruby :confused:, pero no te desesperes: ¡con seguridad te va a recordar a Gobstones y JavaScript! Veamos algunos aspectos notables: 
 
 * todas las sentencias terminan en `;`
 * las clases, métodos y otros bloques de código van encerrados entre llaves `{` y `}`

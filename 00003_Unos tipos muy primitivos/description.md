@@ -3,7 +3,7 @@
 1. _estático_: **antes de ejecutar el programa**, necesita saber con exactitud el tipo de toda variable y expresión
 2. _explícito_: debemos **indicar explícitamente** el tipo de cada variable
 
-Los tipos más simples, llamados _tipos primitivos_ son: 
+Los tipos más simples,  _tipos primitivos_ son: 
 
 * los booleanos `boolean`
 * los números enteros `byte`, `int` y `long`
