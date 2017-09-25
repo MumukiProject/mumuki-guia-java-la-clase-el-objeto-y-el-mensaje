@@ -14,7 +14,7 @@ class Golondrina {
 }
 ```
 
-Pero, ¿por qué prefijamos a nombre del método con `get`? En Java existe la convención de nombrar de esta forma a los métodos **sin parámatetros** que **devuelvan un atributo**.
+Pero, ¿por qué prefijamos a nombre del método con `get`? En Java existe la convención de nombrar de esta forma a los métodos **sin parámetros** que **devuelvan un atributo**.
 
 Y, hablando de convenciones, también contamos con una para los métodos que toman **un sólo parámetro** y asignan un atributo:
 
