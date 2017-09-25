@@ -1,4 +1,4 @@
-¡Develemos el misterio del `int` :open_mouth:!. Java es un lenguaje con _tipado_... 
+¡Develemos el misterio del `int` :open_mouth:! Java es un lenguaje con _tipado_... 
 
 1. _estático_: **antes de ejecutar el programa**, necesita saber con exactitud el tipo de toda variable y expresión
 2. _explícito_: debemos **indicar explícitamente** el tipo de cada variable
@@ -9,7 +9,7 @@ Los tipos más simples,  _tipos primitivos_ son:
 * los números enteros `byte`, `int` y `long`
 * y los números con [coma flotante](https://es.wikipedia.org/wiki/Coma_flotante) `float` y `double`
 
-¡Pero la cosa no termina acá! Si nuestros métodos toman parámtros, **también** debemos indicar su tipo :sweat_smile::
+¡Pero la cosa no termina acá! Si nuestros métodos toman parámetros, **también** debemos indicar su tipo :sweat_smile::
 
 ```java
 void volarDurante(double cantidadHoras) {
