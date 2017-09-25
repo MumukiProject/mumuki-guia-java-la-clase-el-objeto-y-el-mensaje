@@ -1,6 +1,6 @@
-¡Ahora te toca a vos :muscle:! 
+¡Ahora te toca a vos! :muscle:
 
-Alejandra, la bibliotecaria, está muy ocupada clasificando libros muy antiguos, conocidos como [_incunables_](https://es.wikipedia.org/wiki/Incunable). :books:. Ayudémosla modelando una clase `Libro`, que tenga los siguientes atributos...
+Alejandra, la bibliotecaria, está muy ocupada clasificando libros muy antiguos, conocidos como [_incunables_](https://es.wikipedia.org/wiki/Incunable). :books: Ayudémosla modelando una clase `Libro`, que tenga los siguientes atributos...
 
 * un entero `anioEdicion`,
 * un booleano `tieneColofon`
