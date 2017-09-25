@@ -1,4 +1,4 @@
-¿Y si queremos conocer el estado de un objeto? Por ejemplo, ¿cómo podriamos hacer para, desde otro objeto, conocer la energía de  _pepita_?
+¿Y si queremos conocer el estado de un objeto? Por ejemplo, ¿cómo podríamos hacer para, desde otro objeto, conocer la energía de  _pepita_?
 
 Como siempre, mediante mensajes :wink:. En este caso, necesitaremos declarar un método que devuelva la `energia` de la golondrina:
 

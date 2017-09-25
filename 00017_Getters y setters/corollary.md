@@ -1,8 +1,8 @@
 ¿Pero es una buena idea permitir que otros objetos conozcan y modifiquen todo el estado interno de nuestros objetos? :thought_balloon: 
 
-No. 
+¡No!
 
-Si no tenemos cuiado y agregamos y usamos _getters_ y _setters_ en exceso, casi con seguridad incurramos en problemas de encapsualmiento :weary:. Por ejemplo, si lo que queremos es poder reparar un libro, en lugar de definir `setBienConservado` sea una mucho mejor idea escribir un método `reparar`:  
+Si no tenemos cuidado y agregamos y usamos _getters_ y _setters_ en exceso, casi con seguridad incurriremos en problemas de encapsulamiento :weary:. Por ejemplo, si lo que queremos es poder reparar un libro, en lugar de definir `setBienConservado` sería una mucho mejor idea escribir un método `reparar`:  
 
 ```java
 class Libro {
@@ -24,5 +24,5 @@ class Libro {
 }
 ```
 
-Así que ya sabés: ¡sólo definí los getters y setters que realmente necesites! :sunglasses:
+Así que ya sabés: ¡solo definí los getters y setters que realmente necesites! :sunglasses:
 
