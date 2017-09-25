@@ -1,4 +1,4 @@
-Muy lindo declarar clases, pero ¿cómo las usamos? ¿Y los objetos? ¿Y los mensajes? ¿Y candela? :fearful:
+Muy lindo declarar clases, pero ¿cómo las usamos? ¿Y los objetos? ¿Y los mensajes? ¿Y Candela? :fearful:
 
 ¡Vamos por partes! 
 
