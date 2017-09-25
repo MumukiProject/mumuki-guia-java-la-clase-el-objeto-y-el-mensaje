@@ -13,7 +13,7 @@ true
 true
 ```
 
-Y por su puesto hay más :open_mouth::
+Y por supuesto hay más :open_mouth::
 
   * https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
   * https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html
