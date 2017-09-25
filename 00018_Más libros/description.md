@@ -1,7 +1,7 @@
 ¡Estamos llegando al final de nuestra primera lección! Así que es hora de un desafío final: modelar una clase `Bibliotecario`. Sabemos que...
 
 * cada mes, los bibliotecarios revisan muchísimos libros :books:;
-* tienen 20 horas asignadas a la reparación de incunables (sólo reparan mientras no excedan esa cantidad de horas) :alarm_clock:;
+* tienen 20 horas asignadas a la reparación de incunables (solo reparan mientras no excedan esa cantidad de horas) :alarm_clock:;
 * reparar cada incunable les toma 10 horas :hourglass_flowing_sand:.
 
 ...y nos gustaría poder simular su trabajo de la siguiente forma: 
