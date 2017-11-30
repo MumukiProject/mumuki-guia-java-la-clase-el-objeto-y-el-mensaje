@@ -5,4 +5,4 @@ Todos los días pasan decenas de clientes por la caja de "Supermercado Jiménez"
 
 > ¡Tu turno! :muscle:
 >
-> Agregá las las clases, métodos y atributos necesarios para que el `main` de ejemplo funcione adecuadamente. 
+> Agregá las clases, métodos y atributos necesarios para que el `main` de ejemplo funcione adecuadamente. 
