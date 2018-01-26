@@ -5,7 +5,7 @@ class Golondrina {
   int energia;
   
   // devuelve un booleano
-  boolean leQuedaEnegia() { 
+  boolean leQuedaEnergia() { 
     return energia > 0; 
   }
 }
@@ -24,7 +24,7 @@ class Golondrina {
 }
 ```
 
-`void` es un tipo muy especial que se usa sólamente en **retornos de métodos** que no devuelven nada.  
+`void` es un tipo muy especial que se usa solamente en **retornos de métodos** que no devuelven nada.  
 
 > ¡A ver si se va entendiendo! Las golondrinas en realidad necesitan al menos 10 unidades de energía para sobrevivir; sabiendo esto, agregá dos métodos:
 >
