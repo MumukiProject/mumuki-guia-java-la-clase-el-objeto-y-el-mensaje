@@ -5,7 +5,7 @@ class Golondrina {
     energia -= 100;
   }
   
-  boolean leQuedaEnegia() { 
+  boolean leQuedaEnergia() { 
     return energia > 0; 
   }
 }
