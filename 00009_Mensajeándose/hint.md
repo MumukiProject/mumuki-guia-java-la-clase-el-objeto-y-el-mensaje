@@ -1,0 +1,1 @@
+Como la distancia en kilómetros puede no ser entera, vamos a querer que lo que devuelva `distanciaA` sea de tipo `double`.
