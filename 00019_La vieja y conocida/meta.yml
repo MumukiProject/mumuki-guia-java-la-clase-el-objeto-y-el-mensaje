@@ -1,9 +1,9 @@
 ---
 tags: []
 layout: input_right
-editor: code
+editor: custom
 type: problem
-extra_visible: true
+extra_visible: false
 manual_evaluation: false
 choices: []
 name: La vieja y conocida
