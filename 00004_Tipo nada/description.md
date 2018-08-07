@@ -24,10 +24,8 @@ class Golondrina {
 }
 ```
 
-`void` es un tipo muy especial que se usa solamente en **retornos de métodos** que no devuelven nada.  
+`void` es un tipo muy especial que se usa solamente en **retornos de métodos** que no devuelven nada.
 
-> ¡A ver si se va entendiendo! Las golondrinas en realidad necesitan al menos 10 unidades de energía para sobrevivir; sabiendo esto, agregá dos métodos:
->
->  * `energiaUtil`, que devuelva cuánta energía útil le queda (es decir, su `energia` menos `10`)   
->  * `reanimarConUnChocolate`, que le aporte 40 unidades de energía, pero sólo si tiene menos de `10` :chocolate_bar:  
-> 
+
+
+> ¡A ver si se va entendiendo! Las golondrinas en realidad necesitan al menos 10 unidades de energía para sobrevivir; sabiendo esto, agregá el método `energiaUtil`, que devuelva cuánta energía útil le queda (es decir, su `energia` menos `10`).
