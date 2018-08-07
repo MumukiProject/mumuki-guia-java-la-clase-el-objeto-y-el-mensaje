@@ -24,7 +24,7 @@ class Golondrina {
   int energia;
   
   // notá que empieza con set, toma un parámetro y
-  // su tipo de retorno es void
+  // su tipo de retorno es void, ya que no devuelve nada. Solo asigna.
   void setEnergia(int energia) { 
     // notá también el this delante del nombre del atributo: 
     // dado que tanto el atributo como el parámetro
