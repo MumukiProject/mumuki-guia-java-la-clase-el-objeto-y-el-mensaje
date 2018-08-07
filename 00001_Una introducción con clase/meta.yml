@@ -11,7 +11,8 @@ choices:
   checked: true
 - value: "... abrir y cerrar llaves en lugar de utilizar bloques terminados en end"
   checked: true
-- value: "... escribir los nombres de métodos en camelCase"
+- value: "... escribir los nombres de métodos en camelCase (deEstaForma)"
   checked: true
-- value: "... escribir los nombres de clases en snake_case"
+- value: "... escribir los nombres de clases en snake_case (de_esta_otra_forma)"
   checked: false
+name: Una introducción con clase
