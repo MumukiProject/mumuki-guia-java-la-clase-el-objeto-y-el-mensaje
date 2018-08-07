@@ -11,8 +11,8 @@ Golondrina pepita = new Golondrina();
 // mediante el operador `.`:
 pepita.volarEnCirculos();
 
-// Como caso particular, los strings también son objetos,
-// pero los creamos de forma literal: 
+// Como caso particular, los strings también son objetos (de la clase `String`),
+// pero los creamos de forma literal, no escribiendo `new` : 
 String frase = "Todavía sirve, todavía sirve";
 frase.contains("sirve");
 ```
