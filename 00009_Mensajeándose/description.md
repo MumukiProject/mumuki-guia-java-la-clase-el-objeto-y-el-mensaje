@@ -4,7 +4,7 @@ Ya vimos que podemos instanciar objetos y enviarles mensajes dentro de un `main`
 ```java
 class Golondrinda {
   int energia;
-  Ciudad ubicacion;
+  Ciudad ubicacion; //atributo de tipo Ciudad
   
   //podemos enviarle mensajes a parámetros...
   void comer(AlimentoBalanceado alimento) {
