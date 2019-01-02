@@ -14,7 +14,7 @@ alejandra.revisar(unLibroIncunableMalConservado);
 // revisa un incunable, y como está mal conservado y aún tiene 20 horas, lo repara 
 
 alejandra.revisar(unLibroIncunableBienConservado);
-// revisa un incunable, pero no lo repera porque está en condiciones
+// revisa un incunable, pero no lo repara porque está en condiciones
 
 alejandra.revisar(unLibroComun);
 // revisa un libro, pero no lo repara porque no es incunable
