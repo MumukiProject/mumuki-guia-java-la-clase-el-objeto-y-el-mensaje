@@ -13,8 +13,8 @@ true
 true
 ```
 
-Y por supuesto hay más :open_mouth::
+Y por supuesto entienden muchos más mensajes :open_mouth:. Podés investigar un poco siguiendo los enlaces:
 
-  * https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
-  * https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html
+  * [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
+  * [LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html)
 
