@@ -49,7 +49,9 @@ public void se_puede_crear_a_una_bibliotecaria_con_200_libros_revisados_y_enviar
 
 @Test
 public void se_puede_crear_a_una_bibliotecaria_con_200_libros_revisados_y_que_revise_cinco_mas() {
+  Libro libro = new Libro(1490, true);
   Bibliotecario maria = new Bibliotecario(200);
+  
   maria.revisar(libro);
   maria.revisar(libro);
   maria.revisar(libro);
