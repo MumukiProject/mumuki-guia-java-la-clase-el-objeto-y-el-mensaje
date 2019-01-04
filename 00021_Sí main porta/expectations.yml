@@ -1,8 +1,6 @@
 ---
 expectations:
-- binding: Fiesta
-  inspection: Calls:preparar
-- binding: Fiesta
-  inspection: Calls:recibir
-- binding: Fiesta
-  inspection: Calls:encender
+- binding: main
+  inspection: Uses:volumen
+- binding: main
+  inspection: Uses:puertasAbiertas

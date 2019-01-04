@@ -4,4 +4,4 @@ No es únicamente Java el que entiende métodos de este tipo: otros lenguajes ta
 
 `static` es una característica propia del método `main`, pero no vamos a darle importancia por ahora. ¿Y qué significa `String[] args`? `args` es un parámetro de tipo `String[]` que recibe nuestro programa y que puede tener información útil para ayudarlo a inicializarse. No te preocupes mucho :fearful:: como nuestros programas son simples no lo vamos a necesitar, pero hay que pasarlo aunque no lo utilicemos.
 
-> ¡A celebrar! Hacé todo lo necesario para que nuestro programa ejecute una fiesta correctamente. Para eso debe `preparar` la `comida`, `encender` la `musica` y `recibir` a los `invitados`. Nosotros ya hicimos la primera parte...
+> ¡A celebrar! Hacé todo lo necesario para que nuestro programa ejecute una fiesta correctamente. Para eso debe subir el `volumen` a `100` y abrir sus puertas.
