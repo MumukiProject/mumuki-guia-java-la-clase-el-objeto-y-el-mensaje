@@ -1,11 +1,11 @@
-class Comida {
+static class Comida {
   void preparar() {}
 }
 
-class Musica {
+static class Musica {
   void encender() {}
 }
 
-class Invitados {
+static class Invitados {
   void recibir() {}
 }
