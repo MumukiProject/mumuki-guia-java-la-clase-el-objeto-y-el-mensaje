@@ -48,6 +48,18 @@ public void se_puede_crear_a_una_bibliotecaria_con_200_libros_revisados_y_enviar
 }
 
 @Test
+public void se_puede_crear_a_una_bibliotecaria_con_200_libros_revisados_y_que_revise_cinco_mas() {
+  Bibliotecario maria = new Bibliotecario(200);
+  maria.revisar(libro);
+  maria.revisar(libro);
+  maria.revisar(libro);
+  maria.revisar(libro);
+  maria.revisar(libro);
+  
+  Assert.assertEquals("La cantidad inicial de libros revisados de maria es 205", 205, maria.getCantidadLibrosRevisados());
+}
+
+@Test
 public void un_libro_de_1490_con_colofon_es_incunable() {
   Libro libro = new Libro(1490, true);
   Assert.assertTrue(libro.esIncunable());

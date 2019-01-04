@@ -23,7 +23,7 @@ alejandra.revisar(unLibroIncunableMalConservado);
 // revisa un incunable, y como está mal conservado y aún tiene 10 horas, lo repara 
 
 alejandra.revisar(unLibroIncunableMalConservado);
-// revisa un incunable, y aunque está mal conservado, no lo repeara porque se quedó sin horas
+// revisa un incunable, y aunque está mal conservado, no lo repara porque se quedó sin horas
 
 alejandra.getCantidadLibrosRevisados(); 
 // devuelve 1205, porque a los 1200 que ya había revisado, 
