@@ -58,7 +58,7 @@ public void se_puede_crear_a_una_bibliotecaria_con_200_libros_revisados_y_que_re
   maria.revisar(libro);
   maria.revisar(libro);
   
-  Assert.assertEquals("La cantidad inicial de libros revisados de maria es 205", 205, maria.getCantidadLibrosRevisados());
+  Assert.assertEquals("La cantidad total de libros revisados de maria es 205", 205, maria.getCantidadLibrosRevisados());
 }
 
 @Test
