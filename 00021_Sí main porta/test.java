@@ -1,4 +1,4 @@
 @Test
-public void testDescriptionExample() {
-  Assert.assertTrue(true);
+public void se_puede_ejecutar_el_programa() {
+  Fiesta.main(new String[]{});
 }

@@ -9,7 +9,3 @@ class Musica {
 class Invitados {
   void recibir() {}
 }
-
-Comida comida = new Comida();
-Musica musica = new Musica();
-Invitados invitados = new Invitados();

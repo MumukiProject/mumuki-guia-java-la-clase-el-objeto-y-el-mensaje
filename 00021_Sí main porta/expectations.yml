@@ -1,6 +1,8 @@
 ---
 expectations:
 - binding: Fiesta
-  inspection: Uses:musica
+  inspection: Calls:preparar
 - binding: Fiesta
   inspection: Calls:recibir
+- binding: Fiesta
+  inspection: Calls:encender
