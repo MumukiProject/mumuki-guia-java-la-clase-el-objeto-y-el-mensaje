@@ -1,6 +1,0 @@
----
-expectations:
-- binding: main
-  inspection: Uses:volumen
-- binding: main
-  inspection: Uses:puertasAbiertas
