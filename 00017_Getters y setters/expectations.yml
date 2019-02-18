@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: setBienConservado
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: getAnioEdicion

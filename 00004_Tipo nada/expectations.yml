@@ -1,4 +1,5 @@
 ---
 expectations:
-- binding: energiaUtil
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: energiaUtil
   inspection: TypesReturnAs:int

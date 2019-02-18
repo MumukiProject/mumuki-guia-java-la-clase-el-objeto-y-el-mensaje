@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresMethod:esIncunable
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresAttribute:anioEdicion
-- binding: Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
   inspection: DeclaresAttribute:tieneColofon

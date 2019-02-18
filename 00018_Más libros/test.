@@ -49,14 +49,19 @@ public void se_puede_crear_a_una_bibliotecaria_con_200_libros_revisados_y_enviar
 
 @Test
 public void se_puede_crear_a_una_bibliotecaria_con_200_libros_revisados_y_que_revise_cinco_mas() {
-  Libro libro = new Libro(1490, true);
+  Libro libro1 = new Libro(1490, true);
+  Libro libro2= new Libro(1490, true);
+  Libro libro3 = new Libro(1490, true);
+  Libro libro4 = new Libro(1490, true);
+  Libro libro5 = new Libro(1490, true);
+  
   Bibliotecario maria = new Bibliotecario(200);
   
-  maria.revisar(libro);
-  maria.revisar(libro);
-  maria.revisar(libro);
-  maria.revisar(libro);
-  maria.revisar(libro);
+  maria.revisar(libro1);
+  maria.revisar(libro2);
+  maria.revisar(libro3);
+  maria.revisar(libro4);
+  maria.revisar(libro5);
   
   Assert.assertEquals("La cantidad total de libros revisados de maria es 205", 205, maria.getCantidadLibrosRevisados());
 }

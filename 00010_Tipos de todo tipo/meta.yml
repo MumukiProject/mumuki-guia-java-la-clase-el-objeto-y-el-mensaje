@@ -7,10 +7,13 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: String
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: String
   checked: false
-- value: char
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: char
   checked: true
-- value: LocalDate
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: LocalDate
   checked: false
 name: Tipos de todo tipo

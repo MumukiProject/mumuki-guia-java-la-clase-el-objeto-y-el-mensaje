@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: Golondrina
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondrina
   inspection: DeclaresMethod:volarEnCirculos
-- binding: Golondrina
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondrina
   inspection: DeclaresMethod:comerAlpiste
-- binding: Golondrina
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondrina
   inspection: DeclaresComputationWithArity1:comerAlpiste
