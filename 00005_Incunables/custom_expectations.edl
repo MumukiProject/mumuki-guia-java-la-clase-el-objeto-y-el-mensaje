@@ -1,2 +1,0 @@
-expectation "`esIncunable` tiene que devolver una expresión booleana":
-  through `esIncunable` returns with logic;
