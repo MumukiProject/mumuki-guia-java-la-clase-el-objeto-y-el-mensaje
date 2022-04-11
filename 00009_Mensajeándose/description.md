@@ -2,7 +2,7 @@ Ya vimos que podemos instanciar objetos y enviarles mensajes dentro de un `main`
 
 
 ```java
-class Golondrinda {
+class Golondrina {
   int energia;
   Ciudad ubicacion; //atributo de tipo Ciudad
   
