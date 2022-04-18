@@ -1,4 +1,4 @@
-Lo que acabás de hacer es la forma en este lenguaje de definir el punto de entrada a nuestro programa, también llamados `main`s, métodos especiales que podemos definir en cualquier clase que dicen qué hacer cuando inicia nuestro programa:
+Lo que acabamos de hacer es la forma en este lenguaje de definir el punto de entrada a nuestro programa, también llamados `main`s, métodos especiales que podemos definir en cualquier clase que dicen qué hacer cuando inicia nuestro programa:
 
 ```java
 class UnaClaseCualquiera {
