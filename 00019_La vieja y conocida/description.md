@@ -17,8 +17,4 @@ if (aniosEnServicio > 20) {
   aniosEnServicio += 1;
 }
 ```
-> ¡A ver si se va entendiendo! Las golondrinas en realidad necesitan al menos 10 unidades de energía para sobrevivir; sabiendo esto, agregá el método `energiaUtil`, que devuelve cuánta energía útil le queda (es decir, su `energia` menos `10`)   
-
-
-
 >  Como dijimos, las golondrinas necesitan 10 unidades de energía. Definí el método `reanimarConUnChocolate`, que le aporta 40 unidades de energía, pero sólo si tiene menos de `10` :chocolate_bar:.
